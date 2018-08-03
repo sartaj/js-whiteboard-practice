@@ -41,14 +41,4 @@ const isParensValid = str => {
   else return false;
 };
 
-const str1 = '(())'
-const str2 = '(()))'
-const str3 = '())'
-const str4 = '(()'
-const str5 = '()()(())'
-
-console.log(isParensValid(str1)) // true
-console.log(isParensValid(str2)) // false
-console.log(isParensValid(str3)) // false
-console.log(isParensValid(str4)) // false
-console.log(isParensValid(str5)) // true
+module.exports = isParensValid

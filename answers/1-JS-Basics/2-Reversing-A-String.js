@@ -57,8 +57,4 @@ const map = (mapFunc, item) => {
 const reverseFp = str => 
     map((char,i, str) => str[str.length-1-i], str)
 
-const stringToTry = '!?noitanrat ni tahW'
-
-console.log(reverseAttempt(stringToTry))
-console.log(reverseMap(stringToTry))
-console.log(reverseFp(stringToTry))
+module.exports = reverseAttempt

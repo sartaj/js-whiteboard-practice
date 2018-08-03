@@ -1,0 +1,22 @@
+{
+  "name": "js-whiteboard-practice",
+  "version": "1.0.0",
+  "description": "Practice Problems You Should Try Handwritten",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sartaj/js-whiteboard-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sartaj/js-whiteboard-practice/issues"
+  },
+  "homepage": "https://github.com/sartaj/js-whiteboard-practice#readme",
+  "devDependencies": {
+    "tape": "^4.9.1"
+  }
+}
