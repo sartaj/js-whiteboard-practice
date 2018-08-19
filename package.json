@@ -18,5 +18,8 @@
   "homepage": "https://github.com/sartaj/js-whiteboard-practice#readme",
   "devDependencies": {
     "tape": "^4.9.1"
+  },
+  "dependencies": {
+    "through2": "^2.0.3"
   }
 }
